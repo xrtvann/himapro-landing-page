@@ -22,10 +22,10 @@ export default function Navbar() {
         </div>
         
         <div className="hidden md:flex items-center gap-10">
-          <a className="text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
-          <a className="text-sm font-medium hover:text-primary transition-colors" href="#about">About</a>
-          <a className="text-sm font-medium hover:text-primary transition-colors" href="#programs">Programs</a>
-          <a className="text-sm font-medium hover:text-primary transition-colors" href="#events">Events</a>
+          <a className="text-sm font-medium hover:text-primary transition-colors" href="#">Beranda</a>
+          <a className="text-sm font-medium hover:text-primary transition-colors" href="#about">Tentang Kami</a>
+          <a className="text-sm font-medium hover:text-primary transition-colors" href="#programs">Program Kerja</a>
+          <a className="text-sm font-medium hover:text-primary transition-colors" href="#events">Berita</a>
         </div>
         
         <div>

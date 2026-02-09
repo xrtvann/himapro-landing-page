@@ -1,5 +1,7 @@
 import React from 'react'
 import { Reveal } from '../common/Reveal'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
   return (
@@ -35,27 +37,23 @@ export default function Footer() {
             <div>
               <h5 className="text-white font-bold mb-6 uppercase text-xs tracking-widest">Tautan Cepat</h5>
               <ul className="space-y-4">
-                <li><a className="text-gray-400 hover:text-primary transition-colors" href="#">Home</a></li>
+                <li><a className="text-gray-400 hover:text-primary transition-colors" href="#">Beranda</a></li>
                 <li><a className="text-gray-400 hover:text-primary transition-colors" href="#">Tentang Kami</a></li>
                 <li><a className="text-gray-400 hover:text-primary transition-colors" href="#">Program Kerja</a></li>
-                <li><a className="text-gray-400 hover:text-primary transition-colors" href="#">Berita Terkini</a></li>
+                <li><a className="text-gray-400 hover:text-primary transition-colors" href="#">Berita</a></li>
               </ul>
             </div>
             
             <div>
               <h5 className="text-white font-bold mb-6 uppercase text-xs tracking-widest">Kontak</h5>
               <ul className="space-y-4">
-                <li className="flex items-start gap-3 text-gray-400">
-                  <span className="material-symbols-outlined text-primary text-sm mt-1">location_on</span>
-                  <span>Sekretariat Himapro, <br/>Jl. Suroyo No. 12, Probolinggo</span>
+                <li className="flex items-center gap-3 text-gray-400">
+                  <span className="material-symbols-outlined text-primary text-md">email</span>
+                  <span>polijehimapro@gmail.com</span>
                 </li>
                 <li className="flex items-center gap-3 text-gray-400">
-                  <span className="material-symbols-outlined text-primary text-sm">phone</span>
-                  <span>+62 812 3456 7890</span>
-                </li>
-                <li className="flex items-center gap-3 text-gray-400">
-                  <span className="material-symbols-outlined text-primary text-sm">email</span>
-                  <span>halo@himapro.org</span>
+                  <FontAwesomeIcon icon={faInstagram} className="text-primary text-xl" />
+                  <span>@himapro_polije</span>
                 </li>
               </ul>
             </div>
@@ -63,7 +61,7 @@ export default function Footer() {
           
           <div className="pt-8 border-t border-white/5 text-center">
             <p className="text-gray-500 text-sm">
-              © 2024 Himapro - Himpunan Mahasiswa Probolinggo. Dipersembahkan dengan semangat gotong royong.
+              © 2026 Himapro - Himpunan Mahasiswa Probolinggo. Regenerasi Tanpa Batas.
             </p>
           </div>
         </Reveal>
