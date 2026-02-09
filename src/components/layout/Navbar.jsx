@@ -25,7 +25,7 @@ export default function Navbar() {
           <a className="text-sm font-medium hover:text-primary transition-colors" href="#">Beranda</a>
           <a className="text-sm font-medium hover:text-primary transition-colors" href="#about">Tentang Kami</a>
           <a className="text-sm font-medium hover:text-primary transition-colors" href="#programs">Program Kerja</a>
-          <a className="text-sm font-medium hover:text-primary transition-colors" href="#events">Berita</a>
+          <a className="text-sm font-medium hover:text-primary transition-colors" href="#news">Berita</a>
         </div>
         
         <div>

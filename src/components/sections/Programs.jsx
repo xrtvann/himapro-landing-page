@@ -40,7 +40,7 @@ export default function Programs() {
               </div>
               <h4 className="text-2xl font-bold mb-4 dark:text-white">Social Services</h4>
               <p className="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed flex-grow">
-                Bentuk kepedulian nyata melalui aksi kemanusiaan, bakti sosial, dan pemberdayaan masyarakat di desa-desa terpencil.
+                Bentuk kepedulian nyata melalui aksi kemanusiaan, bakti sosial, dan pemberdayaan masyarakat.
               </p>
               <a className="inline-flex items-center text-primary font-bold group-hover:gap-2 transition-all" href="#">
                 Selengkapnya <span className="material-symbols-outlined ml-1">arrow_forward</span>

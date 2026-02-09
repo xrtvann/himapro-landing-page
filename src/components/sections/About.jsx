@@ -14,12 +14,12 @@ export default function About() {
                 <img 
                   alt="Students Synergy" 
                   className="rounded-2xl shadow-2xl mt-8" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-jQoJjGoc8yrH3UBhcO3loB_F-pq7gLAdYGLhrKxf34061nfVZMAS63tOXeklFdjoAfR6pyObcAj2oXUJM2EdkBln5uuM3IMtqLcfD5Gx7M9y44wen2TbbescEwh7pA6fpSP3vdVjfRyGGgVwO3r5eZwcHgmnlmtwdSwAwaEVNe4Ca3JskbNYIRYVu69JVYhGunPe05Zo81cz1oEvgFMY66BUdSliXdkB6cSLbOZH7vHb5MtVNh8VfT61cZFLb7HAVnOQJFp6aucM"
+                  src="https://placehold.net/default.png"
                 />
                 <img 
                   alt="Community Project" 
                   className="rounded-2xl shadow-2xl" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRs-S83hGsjcPgB0h8m11bVM8_cBbZ3lomZbUbUBsCFqRY3yV5bNcrW-lFWODGJraSVTXBtC4UyGDVCPxl3RpknjofE_R94JI-FP-zeHIzBPDlsUs5AMs-5Ttxl-oUUOS05d6X4ebdG-d3RX1JUR9_arlqDBZxWxrWPxjNw4wXbLRksN8RhBFRWKcXoFOvyqVMVglKWR2EvmnZxqRc4RN1V_ejxNY_XH5cf8b1s2RmhFD7BRzXYcz079-l2D-ta9K2ScIstd_MBfJ8"
+                  src="https://placehold.net/default.png"
                 />
               </div>
             </Reveal>

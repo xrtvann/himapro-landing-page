@@ -4,6 +4,7 @@ import Footer from './components/layout/Footer'
 import Hero from './components/sections/Hero'
 import About from './components/sections/About'
 import Programs from './components/sections/Programs'
+import News from './components/sections/News'
 import CTA from './components/sections/CTA'
 import './index.css'
 
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <About />
         <Programs />
+        <News />
         <CTA />
       </main>
       <Footer />
