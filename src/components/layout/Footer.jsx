@@ -11,11 +11,14 @@ export default function Footer() {
           <div className="grid md:grid-cols-4 gap-12 mb-16">
             <div className="col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <div className="bg-primary p-1.5 rounded-md" aria-hidden="true">
-                  <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                    <title>Himapro Logo</title>
-                    <path clipRule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor" fillRule="evenodd"></path>
-                  </svg>
+
+                {/* Footer Logo */}
+                <div className="relative h-12 w-auto">
+                   <img 
+                    src="/images/logo128px.ico" 
+                    alt="Himapro Logo" 
+                    className="h-full w-auto object-contain"
+                  />
                 </div>
                 <span className="text-xl font-bold text-white">Himapro</span>
               </div>

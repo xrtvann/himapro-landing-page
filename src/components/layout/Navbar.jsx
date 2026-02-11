@@ -17,23 +17,15 @@ export default function Navbar() {
           className="flex items-center gap-3 group"
           aria-label="Himapro Homepage"
         >
-          <div className="bg-primary p-2 rounded-lg" aria-hidden="true">
-            <svg
-              className="w-6 h-6 text-white"
-              fill="none"
-              viewBox="0 0 48 48"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Himapro Logo</title>
-              <path
-                clipRule="evenodd"
-                d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z"
-                fill="currentColor"
-                fillRule="evenodd"
-              ></path>
-            </svg>
+          {/* Logo container - adjusted for image */}
+          <div className="relative h-12 w-auto"> 
+            <img 
+              src="/images/logo128px.ico" 
+              alt="Himapro Logo" 
+              className="h-full w-auto object-contain"
+            />
           </div>
-          <span className="text-xl font-bold tracking-tight text-white">
+          <span className="text-xl font-bold tracking-tight text-white hidden sm:block">
             Hima<span className="text-primary">pro</span>
           </span>
         </a>
