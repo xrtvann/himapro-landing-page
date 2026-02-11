@@ -3,7 +3,7 @@ import { Reveal } from '../common/Reveal'
 
 export default function Programs() {
   return (
-    <section className="py-24 px-6 bg-gray-50 dark:bg-surface-dark/30" id="programs">
+    <section className="py-24 px-6 bg-gray-50 dark:bg-surface-dark/30" id="program-kerja">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <Reveal width="100%">

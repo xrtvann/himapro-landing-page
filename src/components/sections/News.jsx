@@ -30,7 +30,7 @@ const newsData = [
 
 export default function News() {
   return (
-    <section className="py-24 px-6 bg-background-light dark:bg-background-dark" id="news">
+    <section className="py-24 px-6 bg-background-light dark:bg-background-dark" id="berita">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <Reveal width="100%">
