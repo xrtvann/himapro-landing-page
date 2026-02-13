@@ -1,5 +1,6 @@
-import React from 'react'
-import { Reveal } from '../common/Reveal'
+import React from "react";
+import { Link } from "react-router-dom";
+import { Reveal } from "../common/Reveal";
 
 export default function CTA() {
   return (
@@ -11,12 +12,17 @@ export default function CTA() {
               Siap Berkontribusi Bersama Kami?
             </h2>
             <p className="text-red-100 text-lg mb-12 max-w-2xl mx-auto">
-              Jadilah bagian dari perubahan besar bersama Himapro. Temukan teman baru, kembangkan potensi, dan mari bangun Probolinggo lebih baik lagi.
+              Jadilah bagian dari perubahan besar bersama Himapro. Temukan teman
+              baru, kembangkan potensi, dan mari bangun Probolinggo lebih baik
+              lagi.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <button className="bg-white text-primary hover:bg-gray-100 px-10 py-4 rounded-xl font-bold text-lg transition-all shadow-xl">
+              <Link
+                to="/recruitment"
+                className="bg-white text-primary hover:bg-gray-100 px-10 py-4 rounded-xl font-bold text-lg transition-all shadow-xl"
+              >
                 Daftar Anggota Sekarang
-              </button>
+              </Link>
               <button className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-10 py-4 rounded-xl font-bold text-lg transition-all">
                 Hubungi Pengurus
               </button>
@@ -25,6 +31,5 @@ export default function CTA() {
         </Reveal>
       </div>
     </section>
-  )
+  );
 }
-

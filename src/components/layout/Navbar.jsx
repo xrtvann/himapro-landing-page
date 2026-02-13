@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Navbar() {
@@ -53,8 +54,8 @@ export default function Navbar() {
             )}
           </button>
 
-          <a
-            href="#"
+          <Link
+            to="/"
             className="hidden sm:flex items-center gap-3 group"
             aria-label="Himapro Homepage"
           >
@@ -69,7 +70,7 @@ export default function Navbar() {
             <span className="text-xl font-bold tracking-tight text-white hidden sm:block">
               Hima<span className="text-primary">pro</span>
             </span>
-          </a>
+          </Link>
         </div>
 
         {/* Center: Desktop Menu */}
@@ -114,12 +115,13 @@ export default function Navbar() {
 
         {/* Right Side: Join Us Button */}
         <div>
-          <button
-            className="bg-primary hover:bg-red-700 text-white px-4 py-2 sm:px-6 sm:py-2.5 rounded-lg text-sm font-bold transition-all shadow-lg shadow-primary/20"
+          <Link
+            to="/recruitment"
+            className="bg-primary hover:bg-red-700 text-white px-4 py-2 sm:px-6 sm:py-2.5 rounded-lg text-sm font-bold transition-all shadow-lg shadow-primary/20 inline-block"
             aria-label="Join Himapro"
           >
             Join Us
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -204,12 +206,13 @@ export default function Navbar() {
               </a>
 
               <div className="mt-4">
-                <button
-                  className="w-full bg-primary hover:bg-red-700 text-white py-3.5 rounded-lg text-lg font-bold transition-all shadow-lg shadow-primary/20"
+                <Link
+                  to="/recruitment"
+                  className="block w-full bg-primary hover:bg-red-700 text-white py-3.5 rounded-lg text-lg font-bold transition-all shadow-lg shadow-primary/20 text-center"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Join Us
-                </button>
+                </Link>
               </div>
             </div>
           </motion.div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Reveal } from "../common/Reveal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -84,12 +85,12 @@ export default function Footer() {
               </h5>
               <ul className="space-y-4">
                 <li>
-                  <a
+                  <Link
                     className="text-gray-400 hover:text-primary transition-colors"
-                    href="#"
+                    to="/"
                   >
                     Beranda
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a
