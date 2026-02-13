@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section
-      className="relative min-h-screen pt-20 flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen pt-20 overflow-hidden"
       aria-labelledby="hero-title"
     >
       <div className="absolute inset-0 z-0">
@@ -20,7 +20,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative z-20 max-w-5xl px-6 text-center">
+      <div className="relative z-20 max-w-5xl px-6 text-center mx-auto pt-[4vh] pb-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -38,7 +38,7 @@ export default function Hero() {
           transition={{ delay: 0.7, duration: 0.5 }}
           className="text-3xl sm:text-5xl md:text-7xl font-black text-white mb-6 leading-tight tracking-tight"
         >
-          Sinergi Mahasiswa, <br />
+          Sinergi Mahasiswa <br />
           <span className="text-primary text-glow">Kontribusi Nyata</span>{" "}
           <br />
           untuk Probolinggo
@@ -69,18 +69,20 @@ export default function Hero() {
             Pelajari Lebih Lanjut
           </button>
         </motion.div>
-      </div>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 2, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 animate-bounce"
-      >
-        <span className="material-symbols-outlined text-white opacity-50 text-3xl">
-          expand_more
-        </span>
-      </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.3, duration: 1 }}
+          className="mt-12 sm:mt-16"
+        >
+          <div className="animate-bounce">
+            <span className="material-symbols-outlined text-white opacity-50 text-4xl">
+              expand_more
+            </span>
+          </div>
+        </motion.div>
+      </div>
     </section>
   );
 }
