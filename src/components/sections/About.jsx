@@ -17,14 +17,14 @@ export default function About() {
               <div className="grid grid-cols-2 gap-4">
                 <img
                   alt="Mahasiswa Himapro berdiskusi dan berkolaborasi dalam kegiatan organisasi"
-                  className="rounded-2xl shadow-2xl mt-8"
-                  src="https://placehold.net/default.png"
+                  className="rounded-2xl shadow-2xl mt-8 aspect-square object-cover"
+                  src="images/sertijab2025.jpeg"
                   loading="lazy"
                 />
                 <img
                   alt="Proyek pengabdian masyarakat Himapro di Probolinggo"
-                  className="rounded-2xl shadow-2xl"
-                  src="https://placehold.net/default.png"
+                  className="rounded-2xl shadow-2xl aspect-square object-cover"
+                  src="images/himapro-cup-2025.jpeg"
                   loading="lazy"
                 />
               </div>

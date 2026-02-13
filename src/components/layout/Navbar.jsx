@@ -23,12 +23,32 @@ export default function Navbar() {
             aria-label="Toggle mobile menu"
           >
             {isMobileMenuOpen ? (
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             ) : (
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
               </svg>
             )}
           </button>
@@ -39,10 +59,10 @@ export default function Navbar() {
             aria-label="Himapro Homepage"
           >
             {/* Logo container - adjusted for image */}
-            <div className="relative h-10 w-auto sm:h-12"> 
-              <img 
-                src="/images/logo128px.ico" 
-                alt="Himapro Logo" 
+            <div className="relative h-10 w-auto sm:h-12">
+              <img
+                src="/images/logo128px.ico"
+                alt="Himapro Logo"
                 className="h-full w-auto object-contain"
               />
             </div>
@@ -112,16 +132,16 @@ export default function Navbar() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "-100%" }}
             transition={{ type: "tween", duration: 0.3 }}
-            className="fixed inset-0  z-50 md:hidden flex flex-col"
+            className="fixed inset-0 bg-black z-[100] md:hidden flex flex-col"
           >
             {/* Mobile Menu Header */}
             <div className="flex items-center justify-between px-6 py-4 h-20">
               {/* Logo in Sidebar */}
               <div className="flex items-center gap-3">
-                 <div className="relative h-10 w-auto"> 
-                  <img 
-                    src="/images/logo128px.ico" 
-                    alt="Himapro Logo" 
+                <div className="relative h-10 w-auto">
+                  <img
+                    src="/images/logo128px.ico"
+                    alt="Himapro Logo"
                     className="h-full w-auto object-contain"
                   />
                 </div>
@@ -136,14 +156,24 @@ export default function Navbar() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 aria-label="Close mobile menu"
               >
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                <svg
+                  className="w-8 h-8"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
                 </svg>
               </button>
             </div>
 
             {/* Mobile Menu Links */}
-            <div className="flex flex-col p-6 gap-6 overflow-y-auto">
+            <div className="flex flex-col p-6 gap-6 overflow-y-auto bg-black min-h-screen">
               <a
                 href="#"
                 className="text-xl font-medium text-white hover:text-primary transition-colors border-b border-white/10 pb-4"
@@ -172,7 +202,7 @@ export default function Navbar() {
               >
                 Berita
               </a>
-              
+
               <div className="mt-4">
                 <button
                   className="w-full bg-primary hover:bg-red-700 text-white py-3.5 rounded-lg text-lg font-bold transition-all shadow-lg shadow-primary/20"
