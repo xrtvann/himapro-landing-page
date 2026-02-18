@@ -24,7 +24,7 @@ export default function About() {
                 <img
                   alt="Proyek pengabdian masyarakat Himapro di Probolinggo"
                   className="rounded-2xl shadow-2xl aspect-square object-cover"
-                  src="images/himapro-cup-2025.jpeg"
+                  src="images/sertijab2026.webp"
                   loading="lazy"
                 />
               </div>
