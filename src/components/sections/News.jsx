@@ -10,22 +10,15 @@ const newsData = [
     image: null,
     link: "#"
   },
-  {
+    {
     id: 2,
-    title: "Bakti Sosial Desa Binor",
-    date: "25 Januari 2026",
-    snippet: "Penyaluran bantuan sembako dan alat tulis untuk masyarakat kurang mampu di Desa Binor sebagai wujud kepedulian sosial.",
-    image: null, // Testing placeholder logic
+    title: "Serah Terima Jabatan 2026",
+    date: "15 Februari 2026",
+    snippet: "Kegiatan serah terima jabatan pengurus Himapro 2026 berlangsung dengan sukses, menandai tonggak baru dalam perjalanan organisasi.",
+    image: "images/sertijab2026.webp",
     link: "#"
   },
-  {
-    id: 3,
-    title: "Pelatihan Web Development",
-    date: "15 Januari 2026",
-    snippet: "Workshop pembuatan website profil desa untuk meningkatkan potensi digital desa-desa di Probolinggo.",
-    image: null,
-    link: "#"
-  }
+ 
 ]
 
 export default function News() {
