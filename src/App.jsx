@@ -4,6 +4,7 @@ import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import HomePage from "./pages/HomePage";
 import RecruitmentPage from "./pages/RecruitmentPage";
+import NewsDetailPage from "./pages/NewsDetailPage";
 import "./index.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/recruitment" element={<RecruitmentPage />} />
+          <Route path="/news/:id" element={<NewsDetailPage />} />
         </Routes>
         <Footer />
       </div>

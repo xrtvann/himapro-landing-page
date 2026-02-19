@@ -40,4 +40,24 @@
   .btn-primary {
     @apply px-6 py-3 bg-primary text-white font-bold rounded-lg transition-all duration-300 hover:bg-red-700 hover:shadow-lg hover:-translate-y-1;
   }
+
+  .news-content h3 {
+    @apply text-2xl font-bold mt-8 mb-4;
+  }
+
+  .news-content p {
+    @apply mb-4 text-base leading-relaxed;
+  }
+
+  .news-content ul {
+    @apply list-disc list-inside mb-4 ml-4;
+  }
+
+  .news-content li {
+    @apply mb-2;
+  }
+
+  .news-content a {
+    @apply text-primary hover:underline;
+  }
 }
