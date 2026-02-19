@@ -2,7 +2,7 @@ export const newsData = [
   {
     id: 1,
     title: "Himapro Goes to School 2026",
-    date: "10 Februari 2026",
+    date: "15 Januari 2026",
     snippet:
       "Kegiatan sosialisasi perguruan tinggi ke SMA/SMK se-derajat di Kabupaten Probolinggo berjalan dengan lancar dan antusias tinggi.",
     image: null,
