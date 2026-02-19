@@ -67,12 +67,12 @@ export default function News() {
         </div>
 
         <div className="text-center mt-12">
-          <a
-            href="#berita"
+          <Link
+            to="/berita"
             className="btn-primary inline-flex items-center gap-2"
           >
             Lihat Semua Berita
-          </a>
+          </Link>
         </div>
       </div>
     </section>

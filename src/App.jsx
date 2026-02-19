@@ -5,6 +5,9 @@ import Footer from "./components/layout/Footer";
 import HomePage from "./pages/HomePage";
 import RecruitmentPage from "./pages/RecruitmentPage";
 import NewsDetailPage from "./pages/NewsDetailPage";
+import TentangKamiPage from "./pages/TentangKamiPage";
+import ProgramKerjaPage from "./pages/ProgramKerjaPage";
+import BeritaPage from "./pages/BeritaPage";
 import "./index.css";
 
 function App() {
@@ -14,6 +17,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/tentang-kami" element={<TentangKamiPage />} />
+          <Route path="/program-kerja" element={<ProgramKerjaPage />} />
+          <Route path="/berita" element={<BeritaPage />} />
           <Route path="/recruitment" element={<RecruitmentPage />} />
           <Route path="/news/:id" element={<NewsDetailPage />} />
         </Routes>

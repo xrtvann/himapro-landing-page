@@ -28,7 +28,7 @@ export default function NewsDetailPage() {
             <Reveal>
               <div className="mb-6">
                 <Link
-                  to="/#berita"
+                  to="/berita"
                   className="inline-flex items-center gap-2 text-white/90 hover:text-white transition-colors"
                 >
                   <span className="material-symbols-outlined">arrow_back</span>

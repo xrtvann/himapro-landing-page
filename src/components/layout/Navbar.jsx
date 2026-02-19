@@ -85,31 +85,31 @@ export default function Navbar() {
             </a>
           </li>
           <li role="none">
-            <a
+            <Link
               className="text-sm font-medium hover:text-primary transition-colors"
-              href="#tentang-kami"
+              to="/tentang-kami"
               role="menuitem"
             >
               Tentang Kami
-            </a>
+            </Link>
           </li>
           <li role="none">
-            <a
+            <Link
               className="text-sm font-medium hover:text-primary transition-colors"
-              href="#program-kerja"
+              to="/program-kerja"
               role="menuitem"
             >
               Program Kerja
-            </a>
+            </Link>
           </li>
           <li role="none">
-            <a
+            <Link
               className="text-sm font-medium hover:text-primary transition-colors"
-              href="#berita"
+              to="/berita"
               role="menuitem"
             >
               Berita
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -183,27 +183,27 @@ export default function Navbar() {
               >
                 Beranda
               </a>
-              <a
-                href="#tentang-kami"
+              <Link
+                to="/tentang-kami"
                 className="text-xl font-medium text-white hover:text-primary transition-colors border-b border-white/10 pb-4"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Tentang Kami
-              </a>
-              <a
-                href="#program-kerja"
+              </Link>
+              <Link
+                to="/program-kerja"
                 className="text-xl font-medium text-white hover:text-primary transition-colors border-b border-white/10 pb-4"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Program Kerja
-              </a>
-              <a
-                href="#berita"
+              </Link>
+              <Link
+                to="/berita"
                 className="text-xl font-medium text-white hover:text-primary transition-colors border-b border-white/10 pb-4"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Berita
-              </a>
+              </Link>
 
               <div className="mt-4">
                 <Link
