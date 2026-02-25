@@ -74,7 +74,7 @@ export default function NewsDetailPage() {
                   <img
                     src={`/${news.image}`}
                     alt={news.title}
-                    className="w-full h-[400px] object-cover"
+                    className="w-full aspect-video object-cover"
                   />
                 </div>
               </Reveal>
@@ -84,7 +84,7 @@ export default function NewsDetailPage() {
 
         {/* Content Section */}
         <section className="py-16 px-6">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto overflow-hidden">
             <Reveal>
               <article className="prose prose-lg dark:prose-invert max-w-none">
                 <div

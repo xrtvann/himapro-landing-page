@@ -55,8 +55,8 @@ export const newsData = [
       
       <p>Acara serah terima jabatan dihadiri oleh perwakilan fakultas, dosen pembimbing, dan seluruh anggota Himapro. Kegiatan ditutup dengan foto bersama dan doa untuk kesuksesan pengurus baru.</p>
     `,
-    author: "Tim Redaksi Himapro",
-    category: "Organisasi",
+    author: "Tim Kominfo Himapro",
+    category: "Keorganisasian",
   },
 ];
 
