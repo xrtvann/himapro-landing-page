@@ -36,7 +36,7 @@ export const newsData = [
       "Kegiatan serah terima jabatan pengurus Himapro 2026 berlangsung dengan sukses, menandai tonggak baru dalam perjalanan organisasi.",
     image: "images/sertijab2026.webp",
     content: `
-      <p>Kegiatan serah terima jabatan pengurus Himpunan Mahasiswa Program Studi (Himapro) periode 2026 telah berlangsung dengan sukses pada tanggal 15 Februari 2026. Acara ini menandai pergantian estafet kepemimpinan dan awal dari babak baru dalam perjalanan organisasi.</p>
+      <p>Kegiatan serah terima jabatan pengurus Himpunan Mahasiswa Probolinggo periode 2026 telah berlangsung dengan sukses pada tanggal 15 Februari 2026. Acara ini menandai pergantian estafet kepemimpinan dan awal dari babak baru dalam perjalanan organisasi.</p>
       
       <h3>Susunan Pengurus Baru</h3>
       <p>Pengurus baru periode 2026 terpilih melalui proses seleksi yang transparan dan demokratis. Mereka siap membawa Himapro ke arah yang lebih baik dengan berbagai program kerja inovatif yang telah dirancang.</p>
@@ -53,7 +53,7 @@ export const newsData = [
       <h3>Harapan dan Target</h3>
       <p>Ketua Himapro periode 2026 menyampaikan komitmen untuk menjalankan amanat dengan sebaik-baiknya dan mengajak seluruh anggota untuk bersama-sama membangun organisasi yang lebih solid dan berprestasi.</p>
       
-      <p>Acara serah terima jabatan dihadiri oleh perwakilan fakultas, dosen pembimbing, dan seluruh anggota Himapro. Kegiatan ditutup dengan foto bersama dan doa untuk kesuksesan pengurus baru.</p>
+      <p>Acara serah terima jabatan dihadiri oleh para demisioner dan seluruh anggota Himapro periode baru. Kegiatan ditutup dengan foto bersama dan doa untuk kesuksesan pengurus baru.</p>
     `,
     author: "Tim Kominfo Himapro",
     category: "Keorganisasian",
