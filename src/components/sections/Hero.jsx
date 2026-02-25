@@ -7,14 +7,14 @@ export default function Hero() {
       className="relative min-h-screen pt-20 overflow-hidden"
       aria-labelledby="hero-title"
     >
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background-dark z-10"></div>
         <motion.img
           initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1.05, opacity: 1 }}
           transition={{ duration: 1.5 }}
           alt="Pemandangan indah Gunung Bromo Probolinggo, menggambarkan keindahan alam daerah asal Himapro"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover max-w-full"
           src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGdjo4N6UgqKSN9pKu-LZNNOMAqo1hWDGp6aR0SfuwBqiG1mv-CM5AAzcow_HaHZF-efrOqBziChWMy1gxqOt8Z38VfCQ_VFhSw-X3nncZIg_7VHb5DUI8qvzH05PEEvGSREctQvwNOU6ahQ7zMu7J9-51yBQRIoZs5is0wCUfl6WBp2AbHYBgKm7nBRIIPLUUQSy7vMY-Sj0Js896grZ-MwCLPf1XZEKNmE8Xg6hgoY8e1WMV1B7DyvJKSJUEu3QE4OHRfkbw83sm"
           loading="eager"
         />

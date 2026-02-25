@@ -6,7 +6,7 @@ import { newsData } from "../../utils/newsData";
 export default function News() {
   return (
     <section
-      className="py-24 px-6 bg-background-light dark:bg-background-dark"
+      className="py-24 px-6 bg-background-light dark:bg-background-dark overflow-hidden"
       id="berita"
     >
       <div className="max-w-7xl mx-auto">

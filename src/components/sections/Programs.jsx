@@ -4,7 +4,7 @@ import { Reveal } from "../common/Reveal";
 export default function Programs() {
   return (
     <section
-      className="py-24 px-6 bg-gray-50 dark:bg-surface-dark/30"
+      className="py-24 px-6 bg-gray-50 dark:bg-surface-dark/30 overflow-hidden"
       id="program-kerja"
     >
       <div className="max-w-7xl mx-auto">
