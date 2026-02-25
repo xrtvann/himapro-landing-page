@@ -4,7 +4,7 @@ import { Reveal } from "../common/Reveal";
 export default function About() {
   return (
     <section
-      className="py-24 px-6 bg-background-light dark:bg-background-dark"
+      className="py-24 px-6 bg-background-light dark:bg-background-dark overflow-hidden"
       id="tentang-kami"
       aria-labelledby="tentang-kami-heading"
     >

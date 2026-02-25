@@ -4,7 +4,7 @@ import { Reveal } from "../common/Reveal";
 
 export default function CTA() {
   return (
-    <section className="py-24 px-6 bg-primary">
+    <section className="py-24 px-6 bg-primary overflow-hidden">
       <div className="max-w-4xl mx-auto text-center">
         <Reveal width="100%">
           <div className="flex flex-col items-center">
