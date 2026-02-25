@@ -66,9 +66,7 @@ export default function Footer() {
                 >
                   <span
                     className="material-symbols-outlined text-white text-xl"
-                    aria-hid
-                    aria-labelledby="news-heading"
-                    den="true"
+                    aria-hidden="true"
                   >
                     mail
                   </span>

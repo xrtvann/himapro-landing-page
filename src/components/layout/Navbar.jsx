@@ -10,13 +10,13 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed top-0 left-0 right-0 z-50 glass-navbar"
+      className="fixed top-0 left-0 right-0 z-50 glass-navbar overflow-x-hidden"
       role="navigation"
       aria-label="Main navigation"
     >
-      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between w-full">
         {/* Left Side: Hamburger & Logo */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 sm:gap-4 flex-shrink-0">
           {/* Hamburger Menu Button - Mobile Only */}
           <button
             className="md:hidden text-white p-1 focus:outline-none"
@@ -67,7 +67,7 @@ export default function Navbar() {
                 className="h-full w-auto object-contain"
               />
             </div>
-            <span className="text-xl font-bold tracking-tight text-white hidden sm:block">
+            <span className="text-xl font-bold tracking-tight text-white hidden sm:block whitespace-nowrap">
               Hima<span className="text-primary">pro</span>
             </span>
           </Link>
@@ -77,7 +77,7 @@ export default function Navbar() {
         <ul className="hidden md:flex items-center gap-10" role="menubar">
           <li role="none">
             <a
-              className="text-sm font-medium hover:text-primary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap"
               href="#"
               role="menuitem"
             >
@@ -86,7 +86,7 @@ export default function Navbar() {
           </li>
           <li role="none">
             <Link
-              className="text-sm font-medium hover:text-primary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap"
               to="/tentang-kami"
               role="menuitem"
             >
@@ -95,7 +95,7 @@ export default function Navbar() {
           </li>
           <li role="none">
             <Link
-              className="text-sm font-medium hover:text-primary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap"
               to="/program-kerja"
               role="menuitem"
             >
@@ -104,7 +104,7 @@ export default function Navbar() {
           </li>
           <li role="none">
             <Link
-              className="text-sm font-medium hover:text-primary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors whitespace-nowrap"
               to="/berita"
               role="menuitem"
             >
@@ -114,10 +114,10 @@ export default function Navbar() {
         </ul>
 
         {/* Right Side: Join Us Button */}
-        <div>
+        <div className="flex-shrink-0">
           <Link
             to="/recruitment"
-            className="bg-primary hover:bg-red-700 text-white px-4 py-2 sm:px-6 sm:py-2.5 rounded-lg text-sm font-bold transition-all shadow-lg shadow-primary/20 inline-block"
+            className="bg-primary hover:bg-red-700 text-white px-4 py-2 sm:px-6 sm:py-2.5 rounded-lg text-sm font-bold transition-all shadow-lg shadow-primary/20 inline-block whitespace-nowrap"
             aria-label="Join Himapro"
           >
             Join Us
@@ -134,10 +134,10 @@ export default function Navbar() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "-100%" }}
             transition={{ type: "tween", duration: 0.3 }}
-            className="fixed inset-0 bg-black z-[100] md:hidden flex flex-col"
+            className="fixed inset-0 bg-black z-[100] md:hidden flex flex-col overflow-x-hidden"
           >
             {/* Mobile Menu Header */}
-            <div className="flex items-center justify-between px-6 py-4 h-20">
+            <div className="flex items-center justify-between px-4 sm:px-6 py-4 h-20">
               {/* Logo in Sidebar */}
               <div className="flex items-center gap-3">
                 <div className="relative h-10 w-auto">
@@ -147,7 +147,7 @@ export default function Navbar() {
                     className="h-full w-auto object-contain"
                   />
                 </div>
-                <span className="text-xl font-bold tracking-tight text-white">
+                <span className="text-xl font-bold tracking-tight text-white whitespace-nowrap">
                   Hima<span className="text-primary">pro</span>
                 </span>
               </div>
@@ -175,7 +175,7 @@ export default function Navbar() {
             </div>
 
             {/* Mobile Menu Links */}
-            <div className="flex flex-col p-6 gap-6 overflow-y-auto bg-black min-h-screen">
+            <div className="flex flex-col p-4 sm:p-6 gap-6 overflow-y-auto bg-black min-h-screen">
               <a
                 href="#"
                 className="text-xl font-medium text-white hover:text-primary transition-colors border-b border-white/10 pb-4"
@@ -199,7 +199,7 @@ export default function Navbar() {
               </Link>
               <Link
                 to="/berita"
-                className="text-xl font-medium text-white hover:text-primary transition-colors border-b border-white/10 pb-4"
+                className="text-xl font-medium text-white hover:text-primary transition-colors border-b border-white/10 pb-4 whitespace-nowrap"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Berita
@@ -208,7 +208,7 @@ export default function Navbar() {
               <div className="mt-4">
                 <Link
                   to="/recruitment"
-                  className="block w-full bg-primary hover:bg-red-700 text-white py-3.5 rounded-lg text-lg font-bold transition-all shadow-lg shadow-primary/20 text-center"
+                  className="block w-full bg-primary hover:bg-red-700 text-white py-3.5 rounded-lg text-lg font-bold transition-all shadow-lg shadow-primary/20 text-center whitespace-nowrap"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Join Us
