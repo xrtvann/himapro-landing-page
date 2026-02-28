@@ -86,20 +86,20 @@ export default function TentangKamiPage() {
                 </div>
 
                 {/* Right side - Visual element */}
-                <div className="hidden md:block">
+                <div className="flex justify-center md:block mt-8 md:mt-0">
                   <div className="relative">
                     {/* Decorative cards */}
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-64 h-64 bg-primary/10 backdrop-blur-xl rounded-3xl border border-primary/20 transform rotate-6"></div>
+                      <div className="w-56 h-56 md:w-64 md:h-64 bg-black/10 backdrop-blur-xl rounded-3xl border border-primary/20 transform rotate-6"></div>
                     </div>
-                    <div className="relative z-10 w-64 h-64 bg-gradient-to-br from-primary/20 to-primary/5 backdrop-blur-xl rounded-3xl border border-primary/30 p-8 flex items-center justify-center mx-auto">
+                    <div className="relative z-10 w-56 h-56 md:w-64 md:h-64 bg-gradient-to-br from-black/20 to-black/5 backdrop-blur-xl rounded-3xl border border-primary/30 p-6 md:p-8 flex items-center justify-center mx-auto">
                       <div className="text-center">
                         <img
                           src="/images/logo128px.ico"
                           alt="Logo Himapro"
-                          className="w-32 h-32 mx-auto mb-4 object-contain"
+                          className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-3 md:mb-4 object-contain"
                         />
-                        <div className="text-white text-lg font-semibold">
+                        <div className="text-white text-base md:text-lg font-semibold">
                           Bersatu Dalam Perbedaan
                         </div>
                       </div>
@@ -425,133 +425,8 @@ export default function TentangKamiPage() {
           </div>
         </section>
 
-        {/* Struktur Organisasi Section */}
-        <section className="py-24 px-6 bg-white dark:bg-gray-900">
-          <div className="max-w-7xl mx-auto">
-            <Reveal>
-              <div className="text-center mb-16">
-                <p className="text-primary font-bold tracking-wider text-sm uppercase mb-3">
-                  Tim Kami
-                </p>
-                <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
-                  Struktur Organisasi
-                </h2>
-                <p className="text-gray-600 dark:text-gray-400 text-lg max-w-3xl mx-auto">
-                  Himapro dikelola oleh tim yang berdedikasi untuk kemajuan
-                  bersama
-                </p>
-              </div>
-            </Reveal>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {/* Divisi 1 */}
-              <Reveal>
-                <div className="text-center group">
-                  <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl p-8 mb-4 border border-primary/20 group-hover:border-primary/40 transition-all duration-300">
-                    <span className="material-symbols-outlined text-primary text-5xl mb-4 block">
-                      account_circle
-                    </span>
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                      Ketua Umum
-                    </h3>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm">
-                      Memimpin dan mengkoordinasi seluruh kegiatan organisasi
-                    </p>
-                  </div>
-                </div>
-              </Reveal>
 
-              {/* Divisi 2 */}
-              <Reveal>
-                <div className="text-center group">
-                  <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl p-8 mb-4 border border-primary/20 group-hover:border-primary/40 transition-all duration-300">
-                    <span className="material-symbols-outlined text-primary text-5xl mb-4 block">
-                      person_outline
-                    </span>
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                      Wakil Ketua
-                    </h3>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm">
-                      Mendukung ketua dalam koordinasi dan pengawasan program
-                    </p>
-                  </div>
-                </div>
-              </Reveal>
-
-              {/* Divisi 3 */}
-              <Reveal>
-                <div className="text-center group">
-                  <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl p-8 mb-4 border border-primary/20 group-hover:border-primary/40 transition-all duration-300">
-                    <span className="material-symbols-outlined text-primary text-5xl mb-4 block">
-                      description
-                    </span>
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                      Sekretaris
-                    </h3>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm">
-                      Mengelola administrasi dan dokumentasi organisasi
-                    </p>
-                  </div>
-                </div>
-              </Reveal>
-
-              {/* Divisi 4 */}
-              <Reveal>
-                <div className="text-center group">
-                  <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl p-8 mb-4 border border-primary/20 group-hover:border-primary/40 transition-all duration-300">
-                    <span className="material-symbols-outlined text-primary text-5xl mb-4 block">
-                      account_balance_wallet
-                    </span>
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                      Bendahara
-                    </h3>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm">
-                      Mengelola keuangan dan pelaporan finansial
-                    </p>
-                  </div>
-                </div>
-              </Reveal>
-            </div>
-
-            <Reveal>
-              <div className="mt-12 text-center">
-                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                  Serta berbagai divisi dan koordinator program yang bekerja
-                  sama untuk mewujudkan visi dan misi Himapro
-                </p>
-              </div>
-            </Reveal>
-          </div>
-        </section>
-
-        {/* CTA Section */}
-        <section className="py-24 px-6 bg-gradient-to-br from-primary to-primary/80 text-white">
-          <div className="max-w-4xl mx-auto text-center">
-            <Reveal>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Bergabunglah Bersama Kami
-              </h2>
-              <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                Mari bersama-sama membangun Probolinggo yang lebih baik melalui
-                kolaborasi dan inovasi
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="/#kontak"
-                  className="bg-white text-primary px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300 inline-block"
-                >
-                  Hubungi Kami
-                </a>
-                <a
-                  href="/#programs"
-                  className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white/10 transition-colors duration-300 inline-block"
-                >
-                  Lihat Program Kami
-                </a>
-              </div>
-            </Reveal>
-          </div>
-        </section>
       </main>
     </>
   );
