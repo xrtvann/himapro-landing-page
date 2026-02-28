@@ -327,7 +327,7 @@ export default function TentangKamiPage() {
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                     Terbuka untuk semua mahasiswa Probolinggo tanpa memandang
-                    latar belakang kampus, jurusan, atau organisasi lain.
+                    latar belakang, jurusan, atau organisasi lain.
                   </p>
                 </div>
               </Reveal>

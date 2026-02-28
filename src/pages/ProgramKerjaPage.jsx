@@ -13,80 +13,82 @@ export default function ProgramKerjaPage() {
       />
 
       <main className="min-h-screen">
-        {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-primary/90 via-primary to-primary/80 text-white py-32 px-6 overflow-hidden">
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
-            <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+        {/* Professional Hero Section */}
+        <section className="relative bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white py-20 md:py-28 px-6 overflow-hidden">
+          {/* Subtle geometric pattern overlay */}
+          <div className="absolute inset-0 opacity-5">
+            <div
+              className="absolute inset-0"
+              style={{
+                backgroundImage: `repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,0.1) 35px, rgba(255,255,255,0.1) 70px)`,
+              }}
+            ></div>
           </div>
+
+          {/* Accent line */}
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-primary to-transparent"></div>
 
           <div className="max-w-7xl mx-auto relative z-10">
+            {/* Breadcrumb */}
             <Reveal>
-              <div className="text-center max-w-4xl mx-auto">
-                <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                  Program Kerja
-                </h1>
-                <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
-                  Aksi Nyata untuk Membangun Probolinggo yang Lebih Baik
-                </p>
+              <nav className="flex items-center space-x-2 text-sm mb-8 text-gray-400">
+                <a href="/" className="hover:text-white transition-colors">
+                  Beranda
+                </a>
+                <span>/</span>
+                <span className="text-white">Program Kerja</span>
+              </nav>
+            </Reveal>
+
+            <Reveal>
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                {/* Left side - Main content */}
+                <div>
+                  <div className="inline-block px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-6">
+                    <span className="text-primary text-sm font-semibold tracking-wide">
+                      PROGRAM UNGGULAN HIMAPRO
+                    </span>
+                  </div>
+
+                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                    Program <span className="text-primary">Kerja</span>
+                  </h1>
+
+                  <div className="h-1 w-24 bg-primary mb-6"></div>
+
+                  <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-8">
+                    Mewujudkan program strategis yang memberikan dampak nyata
+                    melalui pendidikan, pemberdayaan sosial, dan penguatan
+                    solidaritas mahasiswa Probolinggo.
+                  </p>
+
+                  {/* Key stats */}
+                  <div className="grid grid-cols-3 gap-4 pt-6 border-t border-white/10">
+                    <div>
+                      <div className="text-3xl font-bold text-primary mb-1">
+                        8+
+                      </div>
+                      <div className="text-sm text-gray-400">
+                        Program Kerja
+                      </div>
+                    </div>
+                    <div>
+                      <div className="text-3xl font-bold text-primary mb-1">
+                        23+
+                      </div>
+                      <div className="text-sm text-gray-400">Peserta Aktif</div>
+                    </div>
+                    <div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </Reveal>
           </div>
         </section>
 
-        {/* Overview Section */}
-        <section className="py-24 px-6 bg-white dark:bg-gray-900">
-          <div className="max-w-7xl mx-auto">
-            <Reveal>
-              <div className="text-center mb-16">
-                <p className="text-primary font-bold tracking-wider text-sm uppercase mb-3">
-                  Inovasi & Kolaborasi
-                </p>
-                <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
-                  Program Unggulan Himapro
-                </h2>
-                <p className="text-gray-600 dark:text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
-                  Himapro berkomitmen menjalankan program-program strategis yang
-                  memberikan dampak nyata bagi pendidikan, sosial, dan
-                  pengembangan potensi Probolinggo melalui kolaborasi dan
-                  inovasi.
-                </p>
-              </div>
-            </Reveal>
-
-            {/* Stats Section */}
-            <div className="grid md:grid-cols-3 gap-8 mb-16">
-              <Reveal>
-                <div className="text-center p-8 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl border border-primary/20">
-                  <div className="text-5xl font-bold text-primary mb-2">3+</div>
-                  <p className="text-gray-600 dark:text-gray-400 font-semibold">
-                    Program Unggulan
-                  </p>
-                </div>
-              </Reveal>
-              <Reveal>
-                <div className="text-center p-8 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl border border-primary/20">
-                  <div className="text-5xl font-bold text-primary mb-2">
-                    100+
-                  </div>
-                  <p className="text-gray-600 dark:text-gray-400 font-semibold">
-                    Peserta Terlibat
-                  </p>
-                </div>
-              </Reveal>
-              <Reveal>
-                <div className="text-center p-8 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl border border-primary/20">
-                  <div className="text-5xl font-bold text-primary mb-2">
-                    10+
-                  </div>
-                  <p className="text-gray-600 dark:text-gray-400 font-semibold">
-                    Sekolah Terjangkau
-                  </p>
-                </div>
-              </Reveal>
-            </div>
-          </div>
-        </section>
+ 
 
         {/* Programs Section - Reusing existing component */}
         <Programs />
@@ -107,7 +109,7 @@ export default function ProgramKerjaPage() {
                       loading="lazy"
                       onError={(e) => {
                         e.target.src =
-                          "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&auto=format&fit=crop";
+                          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
                       }}
                     />
                   </div>
@@ -382,152 +384,9 @@ export default function ProgramKerjaPage() {
           </div>
         </section>
 
-        {/* Timeline/Roadmap Section */}
-        <section className="py-24 px-6 bg-background-light dark:bg-background-dark">
-          <div className="max-w-7xl mx-auto">
-            <Reveal>
-              <div className="text-center mb-16">
-                <p className="text-primary font-bold tracking-wider text-sm uppercase mb-3">
-                  Jadwal Kegiatan
-                </p>
-                <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
-                  Timeline Program 2026
-                </h2>
-                <p className="text-gray-600 dark:text-gray-400 text-lg max-w-3xl mx-auto">
-                  Rangkaian kegiatan yang telah dan akan dilaksanakan sepanjang
-                  tahun
-                </p>
-              </div>
-            </Reveal>
 
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* Q1 */}
-              <Reveal>
-                <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-gray-700">
-                  <div className="text-center mb-6">
-                    <div className="inline-block px-4 py-2 bg-primary/10 rounded-full mb-4">
-                      <span className="text-primary font-bold">TRIWULAN 1</span>
-                    </div>
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                      Jan - Mar
-                    </h3>
-                  </div>
-                  <ul className="space-y-3">
-                    <li className="flex items-start gap-3">
-                      <span className="material-symbols-outlined text-primary mt-1 flex-shrink-0">
-                        check_circle
-                      </span>
-                      <span className="text-gray-600 dark:text-gray-400">
-                        Perencanaan program tahunan
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="material-symbols-outlined text-primary mt-1 flex-shrink-0">
-                        check_circle
-                      </span>
-                      <span className="text-gray-600 dark:text-gray-400">
-                        Rekrutmen anggota baru
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </Reveal>
 
-              {/* Q2 */}
-              <Reveal>
-                <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-gray-700">
-                  <div className="text-center mb-6">
-                    <div className="inline-block px-4 py-2 bg-primary/10 rounded-full mb-4">
-                      <span className="text-primary font-bold">TRIWULAN 2</span>
-                    </div>
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                      Apr - Jun
-                    </h3>
-                  </div>
-                  <ul className="space-y-3">
-                    <li className="flex items-start gap-3">
-                      <span className="material-symbols-outlined text-primary mt-1 flex-shrink-0">
-                        schedule
-                      </span>
-                      <span className="text-gray-600 dark:text-gray-400">
-                        Goes to Campus fase 1
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="material-symbols-outlined text-primary mt-1 flex-shrink-0">
-                        schedule
-                      </span>
-                      <span className="text-gray-600 dark:text-gray-400">
-                        Social Services #1
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </Reveal>
 
-              {/* Q3 */}
-              <Reveal>
-                <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-gray-700">
-                  <div className="text-center mb-6">
-                    <div className="inline-block px-4 py-2 bg-primary/10 rounded-full mb-4">
-                      <span className="text-primary font-bold">TRIWULAN 3</span>
-                    </div>
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                      Jul - Sep
-                    </h3>
-                  </div>
-                  <ul className="space-y-3">
-                    <li className="flex items-start gap-3">
-                      <span className="material-symbols-outlined text-primary mt-1 flex-shrink-0">
-                        schedule
-                      </span>
-                      <span className="text-gray-600 dark:text-gray-400">
-                        Annual Gathering 2026
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="material-symbols-outlined text-primary mt-1 flex-shrink-0">
-                        schedule
-                      </span>
-                      <span className="text-gray-600 dark:text-gray-400">
-                        Goes to Campus fase 2
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </Reveal>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA Section */}
-        <section className="py-24 px-6 bg-gradient-to-br from-primary to-primary/80 text-white">
-          <div className="max-w-4xl mx-auto text-center">
-            <Reveal>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Mari Berkontribusi Bersama
-              </h2>
-              <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                Ingin terlibat dalam program-program kami atau memiliki ide
-                kolaborasi? Hubungi kami sekarang!
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="/#kontak"
-                  className="bg-white text-primary px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300 inline-block"
-                >
-                  Hubungi Kami
-                </a>
-                <a
-                  href="/tentang-kami"
-                  className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white/10 transition-colors duration-300 inline-block"
-                >
-                  Tentang Himapro
-                </a>
-              </div>
-            </Reveal>
-          </div>
-        </section>
       </main>
     </>
   );
